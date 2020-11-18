@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="data">
+            <div class="statuspic">
+                <img src="" alt="" id="pic">
+            </div>
+        <div class="info beautify">
+            <div class="loc">
+                <h2>City</h2>
+                <h3 id='location'>null</h3>
+            </div>
+            <div class="stat">
+                <h2>Status</h2>
+                <h3 id='status'>null</h3>
+            </div>
+        </div>
+
+        <div class="details beautify ">
+            <div class="temp">
+                <h2>Temp(C)</h2>
+                <h3 id='temperature'>null</h3>
+            </div>
+            <div class="hum">
+                <h2>Humidity</h2>
+                <h3 id='humidity'>null</h3>
+            </div>
+        </div>
+        <div class="inputs">
+        <input type="text" placeholder="Enter Place or ( Lat,Long )" id='place'>
+        <button id='submit'>Search</button>
+    </div>
+    </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
